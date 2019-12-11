@@ -1,0 +1,77 @@
+.tekst {
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: black;
+}
+
+
+
+@media (max-width: 991px) {
+    .man2 {
+        display: none;
+    }
+
+    .man1 {
+        height: 50%;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .tekst {
+color: black;
+text-align: center;
+margin-bottom: 2em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {
+        display: flex;
+    }
+    .man1 {
+        display: none;
+    }
+    .man2 {
+        height: 70%;
+        width: 70%;
+        position: relative;
+    }
+    .tekst {
+        color: white;
+        display: flex;
+        padding: 100px;
+        text-align: left;
+        left: 350px;
+        position: absolute;
+        
+        
+    }
+}
+
+@media (min-width: 1170px) {
+    .man2 {
+        display: none;
+    }
+.container {
+    display: flex;
+}
+    .tekst {
+        color: white;
+        font-size: 20px;
+        display: flex;
+        text-align: left;
+        position: absolute;
+        padding: 250px 0;
+
+    }
+    
+    .man1 {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    }
+}
+
