@@ -1,0 +1,27 @@
+#skills {
+    text-align: center;
+}
+
+#naglowek {
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+
+hr {
+    background-color: grey;
+    border: 0;
+    height: 1px;
+    width: 250px;
+}
+
+p {
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 50;
+    padding-top: 15px;
+}
+
+i {
+    color: orange;
+}
