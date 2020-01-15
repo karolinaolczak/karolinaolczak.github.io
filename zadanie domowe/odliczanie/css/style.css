@@ -17,69 +17,46 @@ div.liczba {
 
 #dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #css {
     visibility: hidden;
-}
-
-#dziesiec {
     animation: 1s fadeIn;
     animation-fill-mode: forwards;
 }
 
 #dziewiec {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 1s;
 }
 #osiem {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 2s;
 }
 
 #siedem {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 3s;
 }
 
 #szesc {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 4s;
 }
 
 #piec {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 5s;
 }
 
 #cztery {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 6s;
 }
 
 #trzy {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 7s;
 }
 
 #dwa {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 8s;
 }
 
 #jeden {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 9s;
 }
 
 #css {
-    animation: 1s fadeInOut;
-    animation-fill-mode: forwards;
     animation-delay: 10s;
     font-size:50px;
 }
